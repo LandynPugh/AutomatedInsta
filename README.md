@@ -21,8 +21,13 @@ Before running scripts, enter the username and password of your chosen instagram
 | :warning:  The data entered into this file is processed by Instabot. This is an external module. It is not reccomended to give the password of any account containing personal or important information.  |
 |-----------------------------------------|
 
-If dependencies are to be installed using a virtual environment, name the environment folder "venv", you will be able to run "dir_watch.py". With this script running, you will be able to move any images you want to be uploaded into the "posts\pictures" directory.
+If dependencies are to be installed using a virtual environment, name the environment folder "venv", you will be able to run "directory_watch.bat", which in turn runs "dir_watch.py". With this script running, you will be able to move any images you want to be uploaded into the "posts\pictures" directory.
 Now every time "insta_post.bat" is run, the first image added to the "posts\pictures" folder will be uploaded to your account along with the first caption in "captions.txt".
+<b>IF DEPENDENCIES ARE NOT INSTALLED USING A VIRTUAL ENVIRONMENT</b><br>
+- Open directory_watch.bat and insta_post.bat in a plain text editor and remove the following text from both: <br>
+```bash
+.\venv\Scripts\activate&&
+```
 
 ### Running the First Time
 The first time insta_post.bat is run, you will be asked by the terminal to enter a verification code. This code will be accessible through the email address associated with the instagram account.
