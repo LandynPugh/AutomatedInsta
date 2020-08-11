@@ -10,12 +10,12 @@ Automated Instagram is a collection of scripts that together, simplify the autom
     - Runs the bot that posts images and captions from the database to the chosen account's feed
 
 ## Required modules:
-- [instabot 0.117.0](https://pypi.org/project/instabot/)
-- [watchdog 0.10.3](https://pypi.org/project/watchdog/)
+- [instabot 0.117.0](https://github.com/mastizada/instabot)
+- [watchdog 0.10.3](https://github.com/gorakhargosh/watchdog)
 
 ### Installation
 
-Automated Instagram requires python 3.0, [instabot 0.117.0](https://pypi.org/project/instabot/) and [watchdog 0.10.3](https://pypi.org/project/watchdog/) to run.
+Automated Instagram requires python 3.0, [instabot 0.117.0](https://github.com/mastizada/instabot/) and [watchdog 0.10.3](https://github.com/gorakhargosh/watchdog) to run.
 
 Before running scripts, enter the username and password of your chosen instagram account into "login.txt" and enter a list of captions into "captions.txt" within the "posts" folder. Ensure that each caption is separated by a newline character.
 | :warning:  The data entered into this file is processed by Instabot. This is an external module. It is not reccomended to give the password of any account containing personal or important information.  |
