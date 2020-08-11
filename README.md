@@ -17,8 +17,8 @@ Automated Instagram is a collection of scripts that together, simplify the autom
 
 Automated Instagram requires python 3.0, [instabot 0.117.0](https://github.com/mastizada/instabot/) and [watchdog 0.10.3](https://github.com/gorakhargosh/watchdog) to run.
 
-Before running scripts, enter the username and password of your chosen instagram account into "login.txt" and enter a list of captions into "captions.txt" within the "posts" folder. Ensure that each caption is separated by a newline character.
-| :warning:  The data entered into this file is processed by Instabot. This is an external module. It is not reccomended to give the password of any account containing personal or important information.  |
+Before running scripts, enter the username and password of your chosen instagram account into "login.txt" and enter a list of captions into "captions.txt" within the "posts" folder. Ensure that each caption is separated by a newline character. In the case that captions.txt is empty, there is a list that will contain random filler captions of your choice within dir_watch.py on line 15. Enter any number of captions that will be used randomly in the case that the default location for captions is empty.
+| :warning:  The data entered into this file is processed by Instabot. This is an external module. It is not recommended to give the password of any account containing personal or important information.  |
 |-----------------------------------------|
 
 If dependencies are to be installed using a virtual environment, name the environment folder "venv", you will be able to run "directory_watch.bat", which in turn runs "dir_watch.py". With this script running, you will be able to move any images you want to be uploaded into the "posts\pictures" directory.
@@ -32,7 +32,7 @@ Now every time "insta_post.bat" is run, the first image added to the "posts\pict
 ```
 
 ### Running the First Time
-The first time insta_post.bat is run, you will be asked by the terminal to enter a verification code. This code will be accessible through the email address associated with the instagram account.
+The first time insta_post.bat is run, you will be asked by the terminal to enter a verification code. This code will be accessible through the email address associated with the Instagram account.
 
 ### Todos
 

@@ -12,7 +12,7 @@ def on_created(event):
         image = event.src_path
         with open("./posts/captions.txt", "r+") as captionFile:
             if captionSize == 0:
-                randomCapt = [<ENTER CAPTION OF CHOICE>] #List of strings containing default captions in the case that captions.txt is empty.
+                randomCapt = ["Default caption"] #List of strings containing default captions in the case that captions.txt is empty.
                 randIndex = randint(0, len(randomCapt)-1)
                 chosenCaption = randomCapt[randIndex]
             else:
