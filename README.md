@@ -23,6 +23,7 @@ Before running scripts, enter the username and password of your chosen instagram
 
 If dependencies are to be installed using a virtual environment, name the environment folder "venv", you will be able to run "directory_watch.bat", which in turn runs "dir_watch.py". With this script running, you will be able to move any images you want to be uploaded into the "posts\pictures" directory.
 Now every time "insta_post.bat" is run, the first image added to the "posts\pictures" folder will be uploaded to your account along with the first caption in "captions.txt".
+
 ###IF DEPENDENCIES ARE NOT INSTALLED USING A VIRTUAL ENVIRONMENT
 - Open directory_watch.bat and insta_post.bat in a plain text editor and remove the following text from both: <br>
 ```bash
